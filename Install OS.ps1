@@ -9,7 +9,7 @@ $sys = (Get-WmiObject Win32_OperatingSystem).SystemDrive
 # You can use the Edition Switcher script after installing if you want to use IoT Enterprise. Make sure your system is up to date first.
 # The product key provided is generic and cannot be used to legitimately activate Windows.
 
-$InstallDrive = "D:\"
+$InstallDrive = "I:\"
 
 # Script
 $adminCheck = [Security.Principal.WindowsPrincipal]([Security.Principal.WindowsIdentity]::GetCurrent())
